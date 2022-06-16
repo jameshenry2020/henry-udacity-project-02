@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "e683e3cc-44ec-4b85-8997-0731f932cce7",
+		"name": "henry-udagram-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10416457"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/filteredimage/?image_url={image-url}/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/filteredimage/?image_url=https://media.istockphoto.com/photos/playful-happy-smiling-pet-dog-running-in-the-grass-picture-id1320018473?b=1&k=20&m=1320018473&s=170667a&w=0&h=Q-U9yI4JjCJYSAzXZwpnM4HuaXPzo4K-vBsgO7lanyo=/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"filteredimage",
+						""
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://media.istockphoto.com/photos/playful-happy-smiling-pet-dog-running-in-the-grass-picture-id1320018473?b=1"
+						},
+						{
+							"key": "k",
+							"value": "20"
+						},
+						{
+							"key": "m",
+							"value": "1320018473"
+						},
+						{
+							"key": "s",
+							"value": "170667a"
+						},
+						{
+							"key": "w",
+							"value": "0"
+						},
+						{
+							"key": "h",
+							"value": "Q-U9yI4JjCJYSAzXZwpnM4HuaXPzo4K-vBsgO7lanyo=/"
+						}
+					]
+				},
+				"description": "an endpoint to filter an image from a public url"
+			},
+			"response": []
+		}
+	]
+}
